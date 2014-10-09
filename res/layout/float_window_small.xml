@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/small_window_float_layout"
+    android:layout_width="60dip"
+    android:layout_height="24dip"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/float_window_bg_small">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="悬浮窗"
+        android:textSize="12sp"
+        android:textColor="#ffffff"/>
+</LinearLayout>
